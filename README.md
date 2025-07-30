@@ -15,7 +15,7 @@ Example *SolutionWithLoop* and *SolutionWithArray* classes have single purpose t
 *IMissingNumberService* interface logic can be interpreted as required without modifying it.
 3. Liskov Substitution
 Subtype implementations can be replaced for the original without error.
-4.Interface Segregation
+4. Interface Segregation
 *IMissingNumberService* is a simple interface which does not force classes to implement methods they do not require.
-5.Dependency Inversion
+5. Dependency Inversion
 In *MissingNumberProcessor* dependencies are injected to the class instead of concrete inplementations. Implementation can be changed without affecting the code. This also helps with unit testing making it easier to test by lossely coupling the code.
