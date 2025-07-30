@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SOLIDMissingNumber/bin/Debug/net8.0
+/SOLIDMissingNumber/obj
+/SOLIDMissingNumber.Tests/bin/Debug/net8.0
+/SOLIDMissingNumber.Tests/obj
